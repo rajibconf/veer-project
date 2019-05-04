@@ -1,0 +1,97 @@
+/*responsive css for veer template*/
+
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 1365px) {
+	/*comment*/
+	.wrapper{
+	  padding: 0px 50px;
+}
+	.p-zero{
+		padding: 0px;
+	}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+	/*comment*/
+	.wrapper{
+	  padding: 0px 50px;
+}
+	.p-zero{
+		padding: 0px;
+	}
+	.banner-text h1{
+		font-size: 50px
+	}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+	/* comment*/
+	.banner-text h1{
+		font-size: 50px
+	}
+
+
+	.contact-left{
+	 	 border: none;
+	}
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+	.pb-30{
+		padding-bottom: 30px;
+	}
+
+	.menubar{
+		background: #000;
+	}
+
+	.nav-item{
+		padding: 5px 0px;
+	}
+	.navbar .navbar-nav .nav-link{
+		color: #fff;
+	}
+	.navbar-light .navbar-toggler {
+	    color: rgba(255,255,255,.5);
+	    border-color: rgba(255,255,255,.1);
+	}
+	.navbar .navbar-expand-lg{
+		display: flex
+	}
+
+
+	.banner-text h1{
+		font-size: 40px;
+	}
+
+	.counter-item {
+    	padding: 15px 0px;
+
+	}
+	
+
+	.work-overlay{
+		padding-bottom: 20px;
+	}
+
+	/*counter section*/
+	.counter-item{
+		padding: 25px 0px;
+	}
+	
+	.blog-part {
+   	 	padding: 100px 0px 40px;
+	}
+	.blog-item {
+   	 	padding-bottom: 60px;
+	}
+
+	.contact-left{
+	 	 border: none;
+	}
+}
